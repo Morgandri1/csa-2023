@@ -1,8 +1,8 @@
 # Chilly Command
 Open the XML file
-\n
+<br />
 search for `powershell.exe -encodedcommand`
-\n
+<br />
 decode the base64 encoded command 
-\n
+<br />
 the output is the flag
