@@ -16,7 +16,7 @@ print(html)
 data = urllib.urlencode({'user' : 'tweetbotuser', 'status-update'  : 'alientest'})
 request = urllib2.Request("http://127.0.0.1:8082", headers={'x-api-key':'tweetbotkeyv1'}, data=data)
 response = urllib2.urlopen(request)
-print response.read()
+print(response.read())
 
 '''
 <html><body><h1>I am TweetBot!</h1><p>Post with header x-api-key</p><<p>Parameters should include user and status-update.</p>/body></html>
